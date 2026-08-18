@@ -17,7 +17,7 @@ function Header() {
           <li>
             <a
               href="#home"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
               Home
             </a>
@@ -26,7 +26,7 @@ function Header() {
           <li>
             <a
               href="#about"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
               About
             </a>
@@ -35,7 +35,7 @@ function Header() {
           <li>
             <a
               href="#portfolio"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
               Portfolio
             </a>
@@ -44,7 +44,7 @@ function Header() {
           <li>
             <a
               href="#contact"
-              className="rounded-lg bg-purple-600 px-5 py-2.5 text-sm font-medium transition hover:bg-purple-700"
+              className="rounded-lg bg-purple-600 px-5 py-2.5 text-md font-medium transition hover:bg-purple-700"
             >
               Contact
             </a>
