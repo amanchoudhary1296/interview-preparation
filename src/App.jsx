@@ -1,11 +1,19 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-red-500">
-        Hello Tailwind 🚀
-      </h1>
-    </div>
-  )
+    <>
+      <Header />
+
+      <main className="min-h-screen bg-white">
+        <section className="flex min-h-[80vh] items-center justify-center">
+          <h1 className="text-5xl font-bold text-black">
+            Hello World
+          </h1>
+        </section>
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
