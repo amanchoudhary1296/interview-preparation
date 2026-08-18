@@ -4,12 +4,12 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-black text-white">
+    <header className="w-full bg-[blue] text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
         
         {/* Logo */}
         <a href="/" className="text-2xl font-bold">
-          MyLogo
+          React Logo
         </a>
 
         {/* Desktop Menu */}
@@ -17,36 +17,36 @@ function Header() {
           <li>
             <a
               href="#home"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
-              Home
+              Home page
             </a>
           </li>
 
           <li>
             <a
               href="#about"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
-              About
+              About page
             </a>
           </li>
 
           <li>
             <a
               href="#portfolio"
-              className="text-sm font-medium transition hover:text-purple-500"
+              className="text-md font-medium transition hover:text-purple-500"
             >
-              Portfolio
+              Portfolio page
             </a>
           </li>
 
           <li>
             <a
               href="#contact"
-              className="rounded-lg bg-purple-600 px-5 py-2.5 text-sm font-medium transition hover:bg-purple-700"
+              className="rounded-lg bg-purple-600 px-5 py-2.5 text-md font-medium transition hover:bg-purple-700"
             >
-              Contact
+              Contact page
             </a>
           </li>
         </ul>
